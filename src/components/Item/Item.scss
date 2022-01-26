@@ -1,0 +1,12 @@
+.grid_items{
+display : grid;
+flex-wrap : wrap;
+grid-template-rows:1fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr;
+grid-gap:2vw;
+}
+.body_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
